@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="net.heedapps.tibiatools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="com.android.vending.BILLING" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.NoActionBar">
+        <activity
+            android:name=".view.AdsRemovalActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".calculators.LevelCalculatorActivity"
+            android:exported="false"
+            android:parentActivityName=".view.CalculatorsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".view.EssentialQuestsActivity"
+            android:exported="false"
+            android:parentActivityName=".view.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".view.CalculatorsActivity"
+            android:exported="false"
+            android:parentActivityName=".view.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".funcs.protection.SnakeSkinActivity"
+            android:exported="false"
+            android:parentActivityName=".funcs.ProtectionActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".funcs.protection.QuaraScaleActivity"
+            android:exported="false"
+            android:parentActivityName=".funcs.ProtectionActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".funcs.protection.LichShroudActivity"
+            android:exported="false"
+            android:parentActivityName=".funcs.ProtectionActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".funcs.protection.DragonHideActivity"
+            android:exported="false"
+            android:parentActivityName=".funcs.ProtectionActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".funcs.protection.DemonPresenceActivity"
+            android:exported="false"
+            android:parentActivityName=".funcs.ProtectionActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".funcs.protection.CloudFabricActivity"
+            android:exported="false"
+            android:parentActivityName=".funcs.ProtectionActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".funcs.damage.VenomActivity"
+            android:exported="false"
+            android:parentActivityName=".funcs.DamageActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".funcs.damage.ScorchActivity"
+            android:exported="false"
+            android:parentActivityName=".funcs.DamageActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".funcs.damage.ReapActivity"
+            android:exported="false"
+            android:parentActivityName=".funcs.DamageActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".funcs.damage.FrostActivity"
+            android:exported="false"
+            android:parentActivityName=".funcs.DamageActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".funcs.damage.ElectrifyActivity"
+            android:exported="false"
+            android:parentActivityName=".funcs.DamageActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".funcs.skills.SlashActivity"
+            android:exported="false"
+            android:parentActivityName=".funcs.SkillsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".funcs.skills.ChopActivity"
+            android:exported="false"
+            android:parentActivityName=".funcs.SkillsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".funcs.skills.EpiphanyActivity"
+            android:exported="false"
+            android:parentActivityName=".funcs.SkillsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".funcs.skills.BlockadeActivity"
+            android:exported="false"
+            android:parentActivityName=".funcs.SkillsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".funcs.skills.PrecisionActivity"
+            android:exported="false"
+            android:parentActivityName=".funcs.SkillsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".funcs.skills.BashActivity"
+            android:exported="false"
+            android:parentActivityName=".funcs.SkillsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".funcs.attr.SwiftnessActivity"
+            android:exported="false"
+            android:parentActivityName=".funcs.AttrActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".funcs.attr.FeatherActivity"
+            android:exported="false"
+            android:parentActivityName=".funcs.AttrActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".funcs.attr.VibrancyActivity"
+            android:exported="false"
+            android:parentActivityName=".funcs.AttrActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".funcs.attr.VoidActivity"
+            android:exported="false"
+            android:parentActivityName=".funcs.AttrActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".funcs.attr.VampActivity"
+            android:exported="false"
+            android:parentActivityName=".funcs.AttrActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".funcs.attr.StrikeActivity"
+            android:exported="false"
+            android:parentActivityName=".funcs.AttrActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".funcs.ProtectionActivity"
+            android:exported="false"
+            android:parentActivityName=".view.ImbueActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".funcs.DamageActivity"
+            android:exported="false"
+            android:parentActivityName=".view.ImbueActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".funcs.SkillsActivity"
+            android:exported="false"
+            android:parentActivityName=".view.ImbueActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".funcs.AttrActivity"
+            android:exported="false"
+            android:parentActivityName=".view.ImbueActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".calculators.SharedExpActivity"
+            android:exported="false"
+            android:parentActivityName=".view.CalculatorsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".view.ImbueActivity"
+            android:exported="false"
+            android:parentActivityName=".view.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".calculators.HuntCalcActivity"
+            android:exported="false"
+            android:parentActivityName=".view.CalculatorsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".view.MainActivity"
+            android:exported="true"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-5981899111891359~7903706213" />
+    </application>
+
+</manifest>

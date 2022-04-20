@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hunt_calc">Calculadora de Hunt</string>
+    <string name="devel">henrique_sinhori</string>
+    <string name="price">Preço unitário</string>
+    <string name="costfull">Com 100% de acerto custa</string>
+    <string name="costlowbasic">Com 90% de acerto custa</string>
+    <string name="costlowintricate">Com 70% de acerto custa</string>
+    <string name="costlowpowerfull">Com 50% de acerto custa</string>
+    <string name="empty_basic">O campo \"basic\" está vazio</string>
+    <string name="empty_intricate">O campo \"intricate\" está vazio</string>
+    <string name="empty_powerfull">O campo \"powerfull\" está vazio</string>
+    <string name="imbuements">Imbuimentos</string>
+    <string name="hunt_analyzer">Analisador de Hunts</string>
+    <string name="general_balance">Balanço geral</string>
+    <string name="name">Nome do jogador</string>
+    <string name="player_balance">Balanço do jogador</string>
+    <string name="number_players">Número de jogadores</string>
+    <string name="calculate">Calcular</string>
+    <string name="invalid_number">O valor deve ser entre 2 e 10</string>
+    <string name="final_balance">O balanço de cada um é:</string>
+    <string name="empty_fields">O campo de balanço ou a quantidade de players está vazio.</string>
+    <string name="choose_imbue">Escolha o \"imbuimento\" desejado</string>
+    <string name="leader_name">Nome do líder da party</string>
+    <string name="leader_balance">Balanço do líder da party</string>
+    <string name="must_receive">deve receber do líder</string>
+    <string name="must_pay">deve pagar ao líder</string>
+    <string name="must_receive_from_party">deve receber da party</string>
+    <string name="must_pay_to_party">deve pagar para a party</string>
+    <string name="not_pay_receive">não deve pagar e nem receber do líder</string>
+    <string name="verify_fields">Verifique os campos relacionados.</string>
+    <string name="shared_exp_calc">Calc Compartilhar Exp</string>
+    <string name="player_level">Nível do jogador</string>
+    <string name="min_level">O nível mínimo requerido é:</string>
+    <string name="max_level">O nível máximo requerido é:</string>
+    <string name="type_extra">Atributos Adicionais</string>
+    <string name="skills_increase">Aumento de Skill</string>
+    <string name="elemental_damage">Dano Elemental</string>
+    <string name="elemental_protection">Proteção Elemental</string>
+    <string name="imbue_price">Valor total dos imbuimentos</string>
+    <string name="protection_damage">Proteção Elemental</string>
+    <string name="rashid_today">Hoje</string>
+    <string name="must_profit">e você deve lucrar</string>
+    <string name="per_hour">por hora</string>
+    <string name="calculators">Calculadoras</string>
+    <string name="essentials_quests">Quests Essenciais</string>
+    <string name="shattered_isles">
+        <a href="https://www.tibiawiki.com.br/wiki/The_Shattered_Isles_Quest">The Shattered Isles Quest</a>
+    </string>
+    <string name="oramond_quest">
+        <a href="https://www.tibiawiki.com.br/wiki/Oramond_Quest">Oramond Quest</a>
+    </string>
+    <string name="feaster_of_souls">
+        <a href="https://www.tibiawiki.com.br/wiki/Feaster_of_Souls_Quest">Feaster of Souls Quest</a>
+    </string>
+    <string name="grave_danger">
+        <a href="https://www.tibiawiki.com.br/wiki/Grave_Danger_Quest">Grave Danger Quest</a>
+    </string>
+    <string name="secret_library">
+        <a href="https://www.tibiawiki.com.br/wiki/The_Secret_Library_Quest">The Secret Library Quest</a>
+    </string>
+    <string name="dream_courts">
+        <a href="https://www.tibiawiki.com.br/wiki/The_Dream_Courts_Quest">The Dream Courts Quest</a>
+    </string>
+    <string name="service_yalahar">
+        <a href="https://www.tibiawiki.com.br/wiki/In_Service_of_Yalahar_Quest">In Service of Yalahar Quest</a>
+    </string>
+    <string name="shadows_yalahar">
+        <a href="https://www.tibiawiki.com.br/wiki/Shadows_of_Yalahar_Quest">Shadows of Yalahar Quest</a>
+    </string>
+    <string name="inquisition_quest">
+        <a href="https://www.tibiawiki.com.br/wiki/The_Inquisition_Quest">The Inquisition Quest</a>
+    </string>
+    <string name="pits_inferno">
+        <a href="https://www.tibiawiki.com.br/wiki/The_Pits_of_Inferno_Quest">The Pits of Inferno Quest</a>
+    </string>
+    <string name="threatened_dreams">
+        <a href="https://www.tibiawiki.com.br/wiki/Threatened_Dreams_Quest">Threatened Dreams Quest</a>
+    </string>
+    <string name="postman_mission">
+        <a href="https://www.tibiawiki.com.br/wiki/The_Postman_Missions_Quest">The Postman Missions Quest</a>
+    </string>
+    <string name="explorer_society">
+        <a href="https://www.tibiawiki.com.br/wiki/The_Explorer_Society_Quest">The Explorer Society Quest</a>
+    </string>
+    <string name="forgotten_knowledge">
+        <a href="https://www.tibiawiki.com.br/wiki/Forgotten_Knowledge_Quest">Forgotten Knowledge Quest</a>
+    </string>
+    <string name="liquid_black">
+        <a href="https://www.tibiawiki.com.br/wiki/Liquid_Black_Quest">Liquid Black Quest</a>
+    </string>
+    <string name="ice_island">
+        <a href="https://www.tibiawiki.com.br/wiki/The_Ice_Islands_Quest">The Ice Islands Quest</a>
+    </string>
+    <string name="new_frontier">
+        <a href="https://www.tibiawiki.com.br/wiki/The_New_Frontier_Quest">The New Frontier Quest</a>
+    </string>
+    <string name="white_raven">
+        <a href="https://www.tibiawiki.com.br/wiki/The_White_Raven_Monastery_Quest">The White Raven Monastery Quest</a>
+    </string>
+    <string name="ape_city">
+        <a href="https://www.tibiawiki.com.br/wiki/The_Ape_City_Quest">The Ape City Quest</a>
+    </string>
+    <string name="children_revolution">
+        <a href="https://www.tibiawiki.com.br/wiki/Children_of_the_Revolution_Quest">Children of the Revolution Quest</a>
+    </string>
+    <string name="wrath_emperor">
+        <a href="https://www.tibiawiki.com.br/wiki/Wrath_of_the_Emperor_Quest">Wrath of the Emperor Quest</a>
+    </string>
+    <string name="kilmaresh_quest">
+        <a href="https://www.tibiawiki.com.br/wiki/Kilmaresh_Quest">Kilmaresh Quest</a>
+    </string>
+    <string name="bigfoot_burden">
+        <a href="https://www.tibiawiki.com.br/wiki/Bigfoot's_Burden_Quest">Bigfoot\'s Burden Quest</a>
+    </string>
+    <string name="grimvale_quest">
+        <a href="https://www.tibiawiki.com.br/wiki/Grimvale_Quest">Grimvale Quest</a>
+    </string>
+    <string name="pirates_tail">
+        <a href="https://www.tibiawiki.com.br/wiki/A_Pirate%27s_Tail_Quest">A Pirate\'s Tail Quest</a>
+    </string>
+    <string name="cults_tibia">
+        <a href="https://www.tibiawiki.com.br/wiki/Cults_of_Tibia_Quest">Cults of Tibia Quest</a>
+    </string>
+    <string name="thieves_guild">
+        <a href="https://www.tibiawiki.com.br/wiki/The_Thieves_Guild_Quest">The Thieves Guild Quest</a>
+    </string>
+    <string name="order_cobra">
+        <a href="https://www.tibiawiki.com.br/wiki/The_Order_of_the_Cobra_(Quest)">The Order of the Cobra Quest</a>
+    </string>
+    <string name="order_falcon">
+        <a href="https://www.tibiawiki.com.br/wiki/The_Order_of_the_Falcon_(Quest)">The Order of the Falcon Quest</a>
+    </string>
+    <string name="heart_destruction">
+        <a href="https://www.tibiawiki.com.br/wiki/Heart_of_Destruction_Quest">Heart of Destruction Quest</a>
+    </string>
+    <string name="order_lion">
+        <a href="https://www.tibiawiki.com.br/wiki/The_Order_of_the_Lion_(Quest)">The Order of the Lion Quest</a>
+    </string>
+    <string name="dangerous_depths">
+        <a href="https://www.tibiawiki.com.br/wiki/Dangerous_Depths_Quest">Dangerous Depths Quest</a>
+    </string>
+    <string name="ferumbras_ascendant">
+        <a href="https://www.tibiawiki.com.br/wiki/Ferumbras'_Ascendant_Quest">Ferumbras\' Ascendant Quest</a>
+    </string>
+    <string name="soul_war">
+        <a href="https://www.tibiawiki.com.br/wiki/Soul_War_Quest">Soul War Quest</a>
+    </string>
+    <string name="hero_rathleton">
+        <a href="https://www.tibiawiki.com.br/wiki/Hero_of_Rathleton_Quest">Hero of Rathleton Quest</a>
+    </string>
+    <string name="paw_fur">
+        <a href="https://www.tibiawiki.com.br/wiki/Paw_and_Fur_-_Hunting_Elite_Quest">Paw and Fur - Hunting Elite Quest</a>
+    </string>
+    <string name="tomes_knowledge">
+        <a href="https://www.tibiawiki.com.br/wiki/Tomes_of_Knowledge_Quest">Tomes of Knowledge Quest</a>
+    </string>
+    <string name="travelling_trader">
+        <a href="https://www.tibiawiki.com.br/wiki/The_Travelling_Trader_Quest">The Travelling Trader Quest</a>
+    </string>
+    <string name="blood_brothers">
+        <a href="https://www.tibiawiki.com.br/wiki/Blood_Brothers_Quest">Blood Brothers Quest</a>
+    </string>
+    <string name="djinn_efreet">
+        <a href="https://www.tibiawiki.com.br/wiki/The_Djinn_War_-_Efreet_Faction">The Djinn War - Efreet Faction</a>
+    </string>
+    <string name="djinn_marid">
+        <a href="https://www.tibiawiki.com.br/wiki/The_Djinn_War_-_Marid_Faction">The Djinn War - Marid Faction</a>
+    </string>
+    <string name="secret_service">
+        <a href="https://www.tibiawiki.com.br/wiki/Secret_Service_Quest">Secret Service Quest</a>
+    </string>
+    <string name="sea_serpent">
+        <a href="https://www.tibiawiki.com.br/wiki/The_Hunt_for_the_Sea_Serpent_Quest">The Hunt for the Sea Serpent Quest</a>
+    </string>
+    <string name="level_calc">Calc de Nível</string>
+    <string name="current_level">Nível Atual</string>
+    <string name="desired_level">Nível Desejado</string>
+    <string name="life">Vida</string>
+    <string name="cap">Capacidade</string>
+    <string name="speed">Velocidade</string>
+    <string name="next_level_exp">Exp necessária</string>
+    <string name="exp_required_str">exp necessária para o nível</string>
+    <string name="rashid_before">Antes do server save:</string>
+    <string name="rashid_after">Depois do server save:</string>
+    <string name="gold_market">Comprar itens no market ou trocar por gold tokens?</string>
+    <string name="gold_cheaper">Está mais barato adquirir os itens através de gold tokens. Com uma economia de</string>
+    <string name="market_cheaper">Está mais barato adquirir os itens através do market. Com uma economia de</string>
+    <string name="click_ads_removal">Clique para remover anúncios</string>
+    <string name="ads_removal">Remover Anúncios</string>
+    <string name="remove_ads_message">Assinatura mensal, além de remover as propagandas você estará me ajudando.</string>
+    <string name="thx_subs">Obrigado por assinar, assim você está me ajudando e desativando as propagandas.</string>
+</resources>

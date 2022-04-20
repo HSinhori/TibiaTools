@@ -1,0 +1,297 @@
+<resources>
+    <string name="app_name" translatable="false">Tibia Tools</string>
+    <string name="hunt_calc">Hunt Calculator</string>
+    <string name="devel">henrique_sinhori</string>
+    <string name="strike" translatable="false">Strike</string>
+    <string name="vamp" translatable="false">Vampirism</string>
+    <string name="void_title" translatable="false">Void</string>
+    <string name="x5" translatable="false">x5</string>
+    <string name="x25" translatable="false">25x</string>
+    <string name="price">Unit price</string>
+    <string name="powerfull" translatable="false">POWERFULL</string>
+    <string name="basic" translatable="false">BASIC</string>
+    <string name="intricate" translatable="false">INTRICATE</string>
+    <string name="costfull">With 100% accuracy it costs</string>
+    <string name="costlowbasic">With 90% accuracy it costs</string>
+    <string name="costlowintricate">With 70% accuracy it costs</string>
+    <string name="costlowpowerfull">With 50% accuracy it costs</string>
+    <string name="empty_basic">The basic field is empty</string>
+    <string name="empty_intricate">The intricate field is empty</string>
+    <string name="empty_powerfull">The powerfull field is empty</string>
+    <string name="imbuements">Imbuements</string>
+    <string name="x15" translatable="false">15x</string>
+    <string name="x20" translatable="false">20x</string>
+    <string name="hunt_analyzer">Party Hunt Analyzer</string>
+    <string name="general_balance">General balance</string>
+    <string name="name">Player name</string>
+    <string name="player_balance">Player balance</string>
+    <string name="number_players">Number of players</string>
+    <string name="calculate">Calculate</string>
+    <string name="invalid_number">The value must be between 2 and 10</string>
+    <string name="final_balance">The balance of each player is:</string>
+    <string name="empty_fields">"The balance sheet or player quantity field is empty.  "</string>
+    <string name="choose_imbue">Choose the desired \"imbuement\"</string>
+    <string name="leader_name">Party leader name</string>
+    <string name="leader_balance">Party leader balance</string>
+    <string name="must_receive">must receive from the leader</string>
+    <string name="must_pay">must pay to the leader</string>
+    <string name="must_receive_from_party">must receive from the party</string>
+    <string name="must_pay_to_party">must pay to the party</string>
+    <string name="not_pay_receive">must not pay or receive from the leader</string>
+    <string name="verify_fields">Check the related fields.</string>
+    <string name="shared_exp_calc">Shared Exp Calculator</string>
+    <string name="player_level">Player level</string>
+    <string name="min_level">The minimum level required is:</string>
+    <string name="max_level">The maximum level required is:</string>
+    <string name="type_extra">Additional Attributes</string>
+    <string name="skills_increase">Skills Increase</string>
+    <string name="elemental_damage">Elemental Damage</string>
+    <string name="elemental_protection">Elemental Protection</string>
+    <string name="protective_charm" translatable="false">Protective Charm x20</string>
+    <string name="sabretooth" translatable="false">Sabretooth x25</string>
+    <string name="vexclaw_talon" translatable="false">Vexclaw x5</string>
+    <string name="imbue_price">Total value of imbuements</string>
+    <string name="vampire_teeth" translatable="false">Vampire Teeth x25</string>
+    <string name="bloody_pincers" translatable="false">Bloody Pincers x15</string>
+    <string name="dead_brain" translatable="false">Piece of Dead Brain x5</string>
+    <string name="rope_belt" translatable="false">Rope Belt x25</string>
+    <string name="silencer" translatable="false">Silencer Claw x25</string>
+    <string name="grimeleech" translatable="false">Some Grimeleech Wings x5</string>
+    <string name="vibrancy" translatable="false">Vibrancy</string>
+    <string name="wereboar_hooves" translatable="false">Wereboar Hooves x20</string>
+    <string name="crystallized_anger" translatable="false">Crystallized Anger x15</string>
+    <string name="quill" translatable="false">Quill x5</string>
+    <string name="swiftness" translatable="false">Swiftness</string>
+    <string name="damselfly_wing" translatable="false">Damselfly Wing x15</string>
+    <string name="compass" translatable="false">Compass x25</string>
+    <string name="waspoid_wing" translatable="false">Waspoid Wing x20</string>
+    <string name="featherweight" translatable="false">Featherweight</string>
+    <string name="fairy_wings" translatable="false">Fairy Wings x20</string>
+    <string name="little_bowl_of_myrrh" translatable="false">Little Bowl of Myrrh x10</string>
+    <string name="goosebump_leather" translatable="false">Goosebump Leather x5</string>
+    <string name="bash" translatable="false">Bash</string>
+    <string name="cyclops_toe" translatable="false">Cyclops Toe x20</string>
+    <string name="ogre_nose_ring" translatable="false">Ogre Nose Ring x15</string>
+    <string name="warmaster_wristguards" translatable="false">Warmaster\'s Wristguards x10</string>
+    <string name="blockade" translatable="false">Blockade</string>
+    <string name="piece_of_scarab_shell" translatable="false">Piece of Scarab Shell x20</string>
+    <string name="brimstone_shell" translatable="false">Brimstone Shell x25</string>
+    <string name="frazzle_skin" translatable="false">Frazzle Skin x25</string>
+    <string name="chop" translatable="false">Chop</string>
+    <string name="orc_tooth" translatable="false">Orc Tooth x20</string>
+    <string name="battle_stone" translatable="false">Battle Stone x25</string>
+    <string name="moohtant_horn" translatable="false">Moohtant Horn x20</string>
+    <string name="epiphany" translatable="false">Epiphany</string>
+    <string name="elvish_talisman" translatable="false">Elvish Talisman x25</string>
+    <string name="broken_shamanic_staff" translatable="false">Broken Shamanic Staff x15</string>
+    <string name="strand_of_medusa_hair" translatable="false">Strand of Medusa Hair x15</string>
+    <string name="precision" translatable="false">Precision</string>
+    <string name="elven_scouting_glass" translatable="false">Elven Scouting Glass x25</string>
+    <string name="elven_hoof" translatable="false">Elven Hoof x20</string>
+    <string name="metal_spike" translatable="false">Metal Spike x10</string>
+    <string name="slash" translatable="false">Slash</string>
+    <string name="lions_mane" translatable="false">Lion\'s Mane x25</string>
+    <string name="moohtah_shell" translatable="false">Mooh\'tah Shell x25</string>
+    <string name="war_crystal" translatable="false">War Crystal x5</string>
+    <string name="electrify" translatable="false">Electrify</string>
+    <string name="rorc_feather" translatable="false">Rorc Feathers x25</string>
+    <string name="peacock_feather_fan" translatable="false">Peacock Feather Fan x5</string>
+    <string name="energy_vein" translatable="false">Energy Vein x1</string>
+    <string name="frost" translatable="false">Frost</string>
+    <string name="frosty_heart" translatable="false">Frosty Heart x25</string>
+    <string name="seacrest_hair" translatable="false">Seacrest Hair x10</string>
+    <string name="polar_bear_paw" translatable="false">Polar Bear Paw x5</string>
+    <string name="reap" translatable="false">Reap</string>
+    <string name="pile_of_grave_earth" translatable="false">Pile of Grave Earth x25</string>
+    <string name="demonic_skeletal_hand" translatable="false">Demonic Skeletal Hand x20</string>
+    <string name="petrified_scream" translatable="false">Petrified Scream x5</string>
+    <string name="scorch" translatable="false">Scorch</string>
+    <string name="fiery_heart" translatable="false">Fiery Heart x25</string>
+    <string name="green_dragon_scale" translatable="false">Green Dragon Scale x5</string>
+    <string name="demon_horn" translatable="false">Demon Horn x5</string>
+    <string name="venom" translatable="false">Venom</string>
+    <string name="swamp_grass" translatable="false">Swamp Grass x25</string>
+    <string name="poisonous_slime" translatable="false">Poisonous Slime x20</string>
+    <string name="slime_heart" translatable="false">Slime Heart x2</string>
+    <string name="cloud_fabric" translatable="false">Cloud Fabric</string>
+    <string name="wyvern_talisman" translatable="false">Wyvern Talisman x20</string>
+    <string name="crawler_head_plating" translatable="false">Crawler Head Plating x15</string>
+    <string name="wyrm_scale" translatable="false">Wyrm Scale x10</string>
+    <string name="demon_presence" translatable="false">Demon Presence</string>
+    <string name="cultish_robe" translatable="false">Cultish Robe x25</string>
+    <string name="cultish_mask" translatable="false">Cultish Mask x25</string>
+    <string name="hellspawn_tail" translatable="false">Hellspawn Tail x20</string>
+    <string name="dragon_hide" translatable="false">Dragon Hide</string>
+    <string name="green_dragon_leather" translatable="false">Green Dragon Leather x20</string>
+    <string name="blazing_bone" translatable="false">Blazing Bone x10</string>
+    <string name="draken_sulphur" translatable="false">Draken Sulphur x5</string>
+    <string name="lich_shroud" translatable="false">Lich Shroud</string>
+    <string name="flask_of_embalming_fluid" translatable="false">Flask of Embalming Fluid x25</string>
+    <string name="gloom_wolf_fur" translatable="false">Gloom Wolf Fur x20</string>
+    <string name="mystical_hourglass" translatable="false">Mystical Hourglass x5</string>
+    <string name="quara_scale" translatable="false">Quara Scale</string>
+    <string name="winter_wolf_fur" translatable="false">Winter Wolf Fur x25</string>
+    <string name="thick_fur" translatable="false">Thick Fur x15</string>
+    <string name="deepling_warts" translatable="false">Deepling Wart x10</string>
+    <string name="snake_skin" translatable="false">Snake Skin</string>
+    <string name="piece_of_swampling_wood" translatable="false">Piece of Swampling Wood x25</string>
+    <string name="snake_skin_item" translatable="false">Snake Skin x20</string>
+    <string name="brimstone_fangs" translatable="false">Brimstone Fang x10</string>
+    <string name="protection_damage">Protection Damage</string>
+    <string name="rashid_today">Today</string>
+    <string name="instagram" translatable="false">Instagram</string>
+    <string name="must_profit">and you must profit</string>
+    <string name="per_hour">per hour</string>
+    <string name="calculators">Calculators</string>
+    <string name="essentials_quests">Essential Quests</string>
+    <string name="shattered_isles">
+        <a href="https://tibia.fandom.com/wiki/The_Shattered_Isles_Quest/Spoiler">The Shattered Isles Quest</a>
+    </string>
+    <string name="oramond_quest">
+        <a href="https://tibia.fandom.com/wiki/Oramond_Quest">Oramond Quest</a>
+    </string>
+    <string name="feaster_of_souls">
+        <a href="https://tibia.fandom.com/wiki/Feaster_of_Souls_Quest">Feaster of Souls Quest</a>
+    </string>
+    <string name="grave_danger">
+        <a href="https://tibia.fandom.com/wiki/Grave_Danger_Quest">Grave Danger Quest</a>
+    </string>
+    <string name="secret_library">
+        <a href="https://tibia.fandom.com/wiki/The_Secret_Library_Quest">The Secret Library Quest</a>
+    </string>
+    <string name="dream_courts">
+        <a href="https://tibia.fandom.com/wiki/The_Dream_Courts_Quest">The Dream Courts Quest</a>
+    </string>
+    <string name="service_yalahar">
+        <a href="https://tibia.fandom.com/wiki/In_Service_of_Yalahar_Quest">In Service of Yalahar Quest</a>
+    </string>
+    <string name="shadows_yalahar">
+        <a href="https://tibia.fandom.com/wiki/Shadows_of_Yalahar_Quest">Shadows of Yalahar Quest</a>
+    </string>
+    <string name="inquisition_quest">
+        <a href="https://tibia.fandom.com/wiki/The_Inquisition_Quest">The Inquisition Quest</a>
+    </string>
+    <string name="pits_inferno">
+        <a href="https://tibia.fandom.com/wiki/The_Pits_of_Inferno_Quest">The Pits of Inferno Quest</a>
+    </string>
+    <string name="threatened_dreams">
+        <a href="https://tibia.fandom.com/wiki/Threatened_Dreams_Quest">Threatened Dreams Quest</a>
+    </string>
+    <string name="postman_mission">
+        <a href="https://tibia.fandom.com/wiki/The_Postman_Missions_Quest">The Postman Missions Quest</a>
+    </string>
+    <string name="explorer_society">
+        <a href="https://tibia.fandom.com/wiki/The_Explorer_Society_Quest">The Explorer Society Quest</a>
+    </string>
+    <string name="forgotten_knowledge">
+        <a href="https://tibia.fandom.com/wiki/Forgotten_Knowledge_Quest">Forgotten Knowledge Quest</a>
+    </string>
+    <string name="liquid_black">
+        <a href="https://tibia.fandom.com/wiki/Liquid_Black_Quest">Liquid Black Quest</a>
+    </string>
+    <string name="ice_island">
+        <a href="https://tibia.fandom.com/wiki/The_Ice_Islands_Quest">The Ice Islands Quest</a>
+    </string>
+    <string name="new_frontier">
+        <a href="https://tibia.fandom.com/wiki/The_New_Frontier_Quest">The New Frontier Quest</a>
+    </string>
+    <string name="white_raven">
+        <a href="https://tibia.fandom.com/wiki/The_White_Raven_Monastery_Quest">The White Raven Monastery Quest</a>
+    </string>
+    <string name="ape_city">
+        <a href="https://tibia.fandom.com/wiki/The_Ape_City_Quest">The Ape City Quest</a>
+    </string>
+    <string name="children_revolution">
+        <a href="https://tibia.fandom.com/wiki/Children_of_the_Revolution_Quest">Children of the Revolution Quest</a>
+    </string>
+    <string name="wrath_emperor">
+        <a href="https://tibia.fandom.com/wiki/Wrath_of_the_Emperor_Quest">Wrath of the Emperor Quest</a>
+    </string>
+    <string name="kilmaresh_quest">
+        <a href="https://tibia.fandom.com/wiki/Kilmaresh_Quest">Kilmaresh Quest</a>
+    </string>
+    <string name="bigfoot_burden">
+        <a href="https://tibia.fandom.com/wiki/Bigfoot's_Burden_Quest">Bigfoot\'s Burden Quest</a>
+    </string>
+    <string name="grimvale_quest">
+        <a href="https://tibia.fandom.com/wiki/Grimvale_Quest">Grimvale Quest</a>
+    </string>
+    <string name="pirates_tail">
+        <a href="https://tibia.fandom.com/wiki/A_Pirate's_Tail_Quest">A Pirate\'s Tail Quest</a>
+    </string>
+    <string name="cults_tibia">
+        <a href="https://tibia.fandom.com/wiki/Cults_of_Tibia_Quest">Cults of Tibia Quest</a>
+    </string>
+    <string name="thieves_guild">
+        <a href="https://tibia.fandom.com/wiki/The_Thieves_Guild_Quest">The Thieves Guild Quest</a>
+    </string>
+    <string name="order_cobra">
+        <a href="https://tibia.fandom.com/wiki/Grave_Danger_Quest#The_Grave_on_an_isle_NE_of_Ankrahmun">The Order of the Cobra Quest</a>
+    </string>
+    <string name="order_falcon">
+        <a href="https://tibia.fandom.com/wiki/The_Secret_Library_Quest#The_Order_of_the_Falcon">The Order of the Falcon Quest</a>
+    </string>
+    <string name="heart_destruction">
+        <a href="https://tibia.fandom.com/wiki/Heart_of_Destruction_Quest">Heart of Destruction Quest</a>
+    </string>
+    <string name="order_lion">
+        <a href="https://tibia.fandom.com/wiki/The_Order_of_the_Lion_Quest">The Order of the Lion Quest</a>
+    </string>
+    <string name="dangerous_depths">
+        <a href="https://tibia.fandom.com/wiki/Dangerous_Depths_Quest">Dangerous Depths Quest</a>
+    </string>
+    <string name="ferumbras_ascendant">
+        <a href="https://tibia.fandom.com/wiki/Ferumbras'_Ascension_Quest">Ferumbras\' Ascension Quest</a>
+    </string>
+    <string name="soul_war">
+        <a href="https://tibia.fandom.com/wiki/Soul_War_Quest">Soul War Quest</a>
+    </string>
+    <string name="hero_rathleton">
+        <a href="https://tibia.fandom.com/wiki/Hero_of_Rathleton_Quest">Hero of Rathleton Quest</a>
+    </string>
+    <string name="paw_fur">
+        <a href="https://tibia.fandom.com/wiki/Killing_in_the_Name_of..._Quest#Paw_and_Fur_Society">Paw and Fur - Hunting Elite Quest</a>
+    </string>
+    <string name="tomes_knowledge">
+        <a href="https://tibia.fandom.com/wiki/Tomes_of_Knowledge_Quest">Tomes of Knowledge Quest</a>
+    </string>
+    <string name="travelling_trader">
+        <a href="https://tibia.fandom.com/wiki/The_Travelling_Trader_Quest">The Travelling Trader Quest</a>
+    </string>
+    <string name="blood_brothers">
+        <a href="https://tibia.fandom.com/wiki/Blood_Brothers_Quest">Blood Brothers Quest</a>
+    </string>
+    <string name="djinn_efreet">
+        <a href="https://tibia.fandom.com/wiki/The_Djinn_War_-_Efreet_Faction">The Djinn War - Efreet Faction</a>
+    </string>
+    <string name="djinn_marid">
+        <a href="https://tibia.fandom.com/wiki/The_Djinn_War_-_Marid_Faction">The Djinn War - Marid Faction</a>
+    </string>
+    <string name="secret_service">
+        <a href="https://tibia.fandom.com/wiki/Secret_Service_Quest">Secret Service Quest</a>
+    </string>
+    <string name="sea_serpent">
+        <a href="https://tibia.fandom.com/wiki/The_Hunt_for_the_Sea_Serpent_Quest">The Hunt for the Sea Serpent Quest</a>
+    </string>
+    <string name="level_calc">Level Calculator</string>
+    <string name="current_level">Current Level</string>
+    <string name="desired_level">Desired Level</string>
+    <string name="life">Life</string>
+    <string name="mana" translatable="false">Mana</string>
+    <string name="cap">Capacity</string>
+    <string name="speed">Speed</string>
+    <string name="next_level_exp">Experience required</string>
+    <string name="exp_required_str">experience required for level</string>
+    <string name="rashid_before">Before the server save:</string>
+    <string name="rashid_after">After the server save:</string>
+    <string name="gold_token" translatable="false">Gold Token</string>
+    <string name="gold_market">Buy items in the market or exchange them for gold tokens?</string>
+    <string name="market_cheaper">It is cheaper to purchase items through the market. With an economy of</string>
+    <string name="gold_cheaper">It is cheaper to acquire items through gold tokens. With an economy of</string>
+    <string name="ads_removal">Ads Removal</string>
+    <string name="remove_ads_message">Monthly subscription, in addition to removing the advertisements you will be helping me.</string>
+    <string name="click_ads_removal">Click to remove ads</string>
+    <string name="thx_subs">Thanks for subscribing, so you are helping me and disabling ads.</string>
+    <string name="cancelled_purchase">Cancelled purchase</string>
+
+</resources>

@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+    android:orientation="vertical"
+    android:background="@drawable/btn_custom_imbue"
+    tools:context=".view.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="25dp">
+
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adViewMain"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            app:adSize="BANNER"
+            app:adUnitId="ca-app-pub-5981899111891359/8145596405">
+        </com.google.android.gms.ads.AdView>
+
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:src="@drawable/logo"
+            android:layout_gravity="center"
+            android:layout_marginLeft="25dp"
+            android:contentDescription="@string/app_name"
+            android:layout_marginRight="25dp"/>
+
+        <Button
+            android:id="@+id/btn_ads_removal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="@string/ads_removal"
+            android:textColor="@color/colorPrimary"
+            android:textSize="22sp"
+            android:background="@drawable/btn_custom_imbue"
+            android:layout_marginBottom="10dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:padding="10dp"
+            android:background="@drawable/btn_custom_imbue"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/rashid_image"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/rashid"
+                android:contentDescription="@string/rashid_today"
+                android:layout_weight="3"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/rashid_today"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorPrimary"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center">
+
+                    <TextView
+                        android:id="@+id/rashid_before_text"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/rashid_before"
+                        android:padding="5dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:textSize="15sp"
+                        android:textColor="@color/colorPrimary"/>
+
+                    <TextView
+                        android:id="@+id/rashid_after_text"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/rashid_after"
+                        android:padding="5dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:textSize="15sp"
+                        android:textColor="@color/colorPrimary"/>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/quests_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="@string/essentials_quests"
+            android:textColor="@color/colorPrimary"
+            android:textSize="22sp"
+            android:background="@drawable/btn_custom_imbue"
+            android:layout_marginBottom="10dp"/>
+
+        <Button
+            android:id="@+id/imbue_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/imbuements"
+            android:textColor="@color/colorPrimary"
+            android:textSize="22sp"
+            android:background="@drawable/btn_custom_imbue"
+            android:layout_marginBottom="10dp"/>
+
+        <Button
+            android:id="@+id/calculators_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/calculators"
+            android:textColor="@color/colorPrimary"
+            android:textSize="22sp"
+            android:background="@drawable/btn_custom_imbue"
+            android:layout_marginBottom="25dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:background="@drawable/btn_custom_imbue"
+            android:padding="10dp"
+            android:onClick="InstaClick"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_weight="1.95"
+                android:scaleType="fitEnd"
+                android:paddingEnd="1dp"
+                android:paddingStart="1dp"
+                android:contentDescription="@string/instagram"
+                android:src="@drawable/instagram_icon"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/devel"
+                android:textAlignment="textStart"
+                android:textColor="@color/colorPrimary"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_weight="1"/>
+
+
+        </LinearLayout>
+
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adViewMainTwo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="bottom|end"
+            app:adSize="BANNER"
+            app:adUnitId="ca-app-pub-5981899111891359/1580188052">
+        </com.google.android.gms.ads.AdView>
+
+
+    </LinearLayout>
+
+
+</ScrollView>

@@ -1,0 +1,689 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/btn_custom_imbue"
+    android:layout_margin="1dp"
+    android:padding="10dp"
+    tools:context=".view.EssentialQuestsActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="25dp">
+
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adViewQuests"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|end"
+            app:adSize="BANNER"
+            app:adUnitId="ca-app-pub-5981899111891359/3776758945">
+        </com.google.android.gms.ads.AdView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="40dp"
+            android:text="@string/essentials_quests"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary"
+            android:textSize="30sp"
+            android:gravity="center"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:padding="25dp"
+            android:orientation="vertical"
+            android:background="@drawable/btn_custom_imbue">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="0+"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimary"/>
+
+            <TextView
+                android:id="@+id/children_revolution"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:gravity="center"
+                android:text="@string/children_revolution"
+                android:textSize="20sp"
+                android:textColor="@color/colorPrimary"/>
+
+            <TextView
+                android:id="@+id/cults_tibia"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:gravity="center"
+                android:text="@string/cults_tibia"
+                android:textSize="20sp"
+                android:textColor="@color/colorPrimary"/>
+
+            <TextView
+                android:id="@+id/forgotten_knowledge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:gravity="center"
+                android:text="@string/forgotten_knowledge"
+                android:textSize="20sp"
+                android:textColor="@color/colorPrimary"/>
+
+            <TextView
+                android:id="@+id/grimvale_quest"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:gravity="center"
+                android:text="@string/grimvale_quest"
+                android:textSize="20sp"
+                android:textColor="@color/colorPrimary"/>
+
+            <TextView
+                android:id="@+id/hero_rathleton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:gravity="center"
+                android:text="@string/hero_rathleton"
+                android:textSize="20sp"
+                android:textColor="@color/colorPrimary"/>
+
+            <TextView
+                android:id="@+id/kilmaresh_quest"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:gravity="center"
+                android:text="@string/kilmaresh_quest"
+                android:textSize="20sp"
+                android:textColor="@color/colorPrimary"/>
+
+            <TextView
+                android:id="@+id/liquid_black"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:gravity="center"
+                android:text="@string/liquid_black"
+                android:textSize="20sp"
+                android:textColor="@color/colorPrimary"/>
+
+            <TextView
+                android:id="@+id/oramond_quest"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:gravity="center"
+                android:text="@string/oramond_quest"
+                android:textSize="20sp"
+                android:textColor="@color/colorPrimary"/>
+
+            <TextView
+                android:id="@+id/paw_fur"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:gravity="center"
+                android:text="@string/paw_fur"
+                android:textSize="20sp"
+                android:textColor="@color/colorPrimary"/>
+
+            <TextView
+                android:id="@+id/ape_city"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:gravity="center"
+                android:text="@string/ape_city"
+                android:textSize="20sp"
+                android:textColor="@color/colorPrimary"/>
+
+            <TextView
+                android:id="@+id/explorer_society"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:gravity="center"
+                android:text="@string/explorer_society"
+                android:textSize="20sp"
+                android:textColor="@color/colorPrimary"/>
+
+            <TextView
+                android:id="@+id/ice_island"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:gravity="center"
+                android:text="@string/ice_island"
+                android:textSize="20sp"
+                android:textColor="@color/colorPrimary"/>
+
+            <TextView
+                android:id="@+id/new_frontier"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:gravity="center"
+                android:text="@string/new_frontier"
+                android:textSize="20sp"
+                android:textColor="@color/colorPrimary"/>
+
+            <TextView
+                android:id="@+id/postman_mission"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:gravity="center"
+                android:text="@string/postman_mission"
+                android:textSize="20sp"
+                android:textColor="@color/colorPrimary"/>
+
+            <TextView
+                android:id="@+id/thieves_guild"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:gravity="center"
+                android:text="@string/thieves_guild"
+                android:textSize="20sp"
+                android:textColor="@color/colorPrimary"/>
+
+            <TextView
+                android:id="@+id/travelling_trader"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:gravity="center"
+                android:text="@string/travelling_trader"
+                android:textSize="20sp"
+                android:textColor="@color/colorPrimary"/>
+
+            <TextView
+                android:id="@+id/white_raven"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:gravity="center"
+                android:text="@string/white_raven"
+                android:textSize="20sp"
+                android:textColor="@color/colorPrimary"/>
+
+            <TextView
+                android:id="@+id/threatened_dreams"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:gravity="center"
+                android:text="@string/threatened_dreams"
+                android:textSize="20sp"
+                android:textColor="@color/colorPrimary"/>
+
+            <TextView
+                android:id="@+id/tomes_knowledge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:gravity="center"
+                android:text="@string/tomes_knowledge"
+                android:textSize="20sp"
+                android:textColor="@color/colorPrimary"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:padding="25dp"
+            android:orientation="vertical"
+            android:background="@drawable/btn_custom_imbue">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="20+"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimary"/>
+
+            <TextView
+                android:id="@+id/shattered_isles"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:gravity="center"
+                android:text="@string/shattered_isles"
+                android:textSize="20sp"
+                android:textColor="@color/colorPrimary"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:padding="25dp"
+            android:orientation="vertical"
+            android:background="@drawable/btn_custom_imbue">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="40+"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimary"/>
+
+            <TextView
+                android:id="@+id/blood_brothers"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:gravity="center"
+                android:text="@string/blood_brothers"
+                android:textSize="20sp"
+                android:textColor="@color/colorPrimary"/>
+
+            <TextView
+                android:id="@+id/djinn_efreet"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:gravity="center"
+                android:text="@string/djinn_efreet"
+                android:textSize="20sp"
+                android:textColor="@color/colorPrimary"/>
+
+            <TextView
+                android:id="@+id/djinn_marid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:gravity="center"
+                android:text="@string/djinn_marid"
+                android:textSize="20sp"
+                android:textColor="@color/colorPrimary"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:padding="25dp"
+            android:orientation="vertical"
+            android:background="@drawable/btn_custom_imbue">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="50+"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimary"/>
+
+            <TextView
+                android:id="@+id/secret_service"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:gravity="center"
+                android:text="@string/secret_service"
+                android:textSize="20sp"
+                android:textColor="@color/colorPrimary"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:padding="25dp"
+            android:orientation="vertical"
+            android:background="@drawable/btn_custom_imbue">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="61+"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimary"/>
+
+            <TextView
+                android:id="@+id/sea_serpent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:gravity="center"
+                android:text="@string/sea_serpent"
+                android:textSize="20sp"
+                android:textColor="@color/colorPrimary"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:padding="25dp"
+            android:orientation="vertical"
+            android:background="@drawable/btn_custom_imbue">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="75+"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimary"/>
+
+            <TextView
+                android:id="@+id/shadows_yalahar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:gravity="center"
+                android:text="@string/shadows_yalahar"
+                android:textSize="20sp"
+                android:textColor="@color/colorPrimary"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:padding="25dp"
+            android:orientation="vertical"
+            android:background="@drawable/btn_custom_imbue">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="80+"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimary"/>
+
+            <TextView
+                android:id="@+id/bigfoot_burden"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:gravity="center"
+                android:text="@string/bigfoot_burden"
+                android:textSize="20sp"
+                android:textColor="@color/colorPrimary"/>
+
+            <TextView
+                android:id="@+id/service_yalahar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:gravity="center"
+                android:text="@string/service_yalahar"
+                android:textSize="20sp"
+                android:textColor="@color/colorPrimary"/>
+
+            <TextView
+                android:id="@+id/pits_inferno"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:gravity="center"
+                android:text="@string/pits_inferno"
+                android:textSize="20sp"
+                android:textColor="@color/colorPrimary"/>
+
+            <TextView
+                android:id="@+id/wrath_emperor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:gravity="center"
+                android:text="@string/wrath_emperor"
+                android:textSize="20sp"
+                android:textColor="@color/colorPrimary"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:padding="25dp"
+            android:orientation="vertical"
+            android:background="@drawable/btn_custom_imbue">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="100+"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimary"/>
+
+            <TextView
+                android:id="@+id/dangerous_depths"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:gravity="center"
+                android:text="@string/dangerous_depths"
+                android:textSize="20sp"
+                android:textColor="@color/colorPrimary"/>
+
+            <TextView
+                android:id="@+id/inquisition_quest"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:gravity="center"
+                android:text="@string/inquisition_quest"
+                android:textSize="20sp"
+                android:textColor="@color/colorPrimary"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:padding="25dp"
+            android:orientation="vertical"
+            android:background="@drawable/btn_custom_imbue">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="150+"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimary"/>
+
+            <TextView
+                android:id="@+id/ferumbras_ascendant"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:gravity="center"
+                android:text="@string/ferumbras_ascendant"
+                android:textSize="20sp"
+                android:textColor="@color/colorPrimary"/>
+
+            <TextView
+                android:id="@+id/heart_destruction"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:gravity="center"
+                android:text="@string/heart_destruction"
+                android:textSize="20sp"
+                android:textColor="@color/colorPrimary"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:padding="25dp"
+            android:orientation="vertical"
+            android:background="@drawable/btn_custom_imbue">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="200+"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimary"/>
+
+            <TextView
+                android:id="@+id/pirates_tail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:gravity="center"
+                android:text="@string/pirates_tail"
+                android:textSize="20sp"
+                android:textColor="@color/colorPrimary"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:padding="25dp"
+            android:orientation="vertical"
+            android:background="@drawable/btn_custom_imbue">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="250+"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimary"/>
+
+            <TextView
+                android:id="@+id/feaster_of_souls"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:gravity="center"
+                android:text="@string/feaster_of_souls"
+                android:textSize="20sp"
+                android:textColor="@color/colorPrimary"/>
+
+            <TextView
+                android:id="@+id/grave_danger"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:gravity="center"
+                android:text="@string/grave_danger"
+                android:textSize="20sp"
+                android:textColor="@color/colorPrimary"/>
+
+            <TextView
+                android:id="@+id/soul_war"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:gravity="center"
+                android:text="@string/soul_war"
+                android:textSize="20sp"
+                android:textColor="@color/colorPrimary"/>
+
+            <TextView
+                android:id="@+id/dream_courts"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:gravity="center"
+                android:text="@string/dream_courts"
+                android:textSize="20sp"
+                android:textColor="@color/colorPrimary"/>
+
+            <TextView
+                android:id="@+id/secret_library"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:gravity="center"
+                android:text="@string/secret_library"
+                android:textSize="20sp"
+                android:textColor="@color/colorPrimary"/>
+
+            <TextView
+                android:id="@+id/order_cobra"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:gravity="center"
+                android:text="@string/order_cobra"
+                android:textSize="20sp"
+                android:textColor="@color/colorPrimary"/>
+
+            <TextView
+                android:id="@+id/order_falcon"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:gravity="center"
+                android:text="@string/order_falcon"
+                android:textSize="20sp"
+                android:textColor="@color/colorPrimary"/>
+
+            <TextView
+                android:id="@+id/order_lion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:gravity="center"
+                android:text="@string/order_lion"
+                android:textSize="20sp"
+                android:textColor="@color/colorPrimary"/>
+
+        </LinearLayout>
+
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adViewQuestsTwo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="bottom|end"
+            app:adSize="BANNER"
+            app:adUnitId="ca-app-pub-5981899111891359/2931608800">
+        </com.google.android.gms.ads.AdView>
+
+    </LinearLayout>
+
+</ScrollView>

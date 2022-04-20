@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/btn_custom_imbue"
+    android:paddingBottom="25dp"
+    android:paddingTop="25dp"
+    tools:context=".funcs.AttrActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="25dp"
+        android:paddingRight="25dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="55dp"
+            android:gravity="center"
+            android:text="@string/type_extra"
+            android:textSize="30sp"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="bold"/>
+
+        <LinearLayout
+            android:id="@+id/layout_strike"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:orientation="horizontal"
+            android:onClick="strikeClick"
+            android:gravity="center"
+            android:background="@drawable/btn_custom_imbue">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Strike"
+                android:textSize="22sp"
+                android:layout_weight="1.3"
+                android:gravity="right"
+                android:textColor="@color/colorPrimary"/>
+
+            <ImageView
+                android:id="@+id/img_strike"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:src="@drawable/strike"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_vampirism"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:onClick="vampClick"
+            android:gravity="center"
+            android:background="@drawable/btn_custom_imbue">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Vampirism"
+                android:textSize="22sp"
+                android:layout_weight="1.3"
+                android:gravity="right"
+                android:textColor="@color/colorPrimary"/>
+
+            <ImageView
+                android:id="@+id/img_vampirism"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:src="@drawable/great_hp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_void"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:onClick="voidClick"
+            android:gravity="center"
+            android:background="@drawable/btn_custom_imbue">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Void"
+                android:textSize="22sp"
+                android:layout_weight="1.3"
+                android:gravity="right"
+                android:textColor="@color/colorPrimary"/>
+
+            <ImageView
+                android:id="@+id/img_void"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:src="@drawable/great_mana"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_vibrancy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:onClick="vibrancyClick"
+            android:gravity="center"
+            android:background="@drawable/btn_custom_imbue">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Vibrancy"
+                android:textSize="22dp"
+                android:layout_weight="1.3"
+                android:gravity="right"
+                android:textColor="@color/colorPrimary"/>
+
+            <ImageView
+                android:id="@+id/img_vibrancy"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:src="@drawable/vibrancy"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_swiftness"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:onClick="swiftnessClick"
+            android:gravity="center"
+            android:background="@drawable/btn_custom_imbue">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Swiftness"
+                android:textSize="22sp"
+                android:layout_weight="1.3"
+                android:gravity="right"
+                android:textColor="@color/colorPrimary"/>
+
+            <ImageView
+                android:id="@+id/img_swiftness"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:src="@drawable/swiftness"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_featherweight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:onClick="featherClick"
+            android:gravity="center"
+            android:background="@drawable/btn_custom_imbue">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Featherweight"
+                android:textSize="20sp"
+                android:layout_weight="1.3"
+                android:gravity="right"
+                android:textColor="@color/colorPrimary"/>
+
+            <ImageView
+                android:id="@+id/img_featherweight"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:src="@drawable/featherweight"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
