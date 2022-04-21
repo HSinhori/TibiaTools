@@ -190,4 +190,23 @@
     <string name="ads_removal">Remover Anúncios</string>
     <string name="remove_ads_message">Assinatura mensal, além de remover as propagandas você estará me ajudando.</string>
     <string name="thx_subs">Obrigado por assinar, assim você está me ajudando e desativando as propagandas.</string>
+    <string name="cancelled_purchase">Compra cancelada</string>
+    <string name="cancelled_purchase">C</string>
+    <string name="melee_training">Treino melee</string>
+    <string name="melee_training">T</string>
+    <string name="current_skill">Skill atual</string>
+    <string name="current_skill">S</string>
+    <string name="desired_skill">Skill desejado</string>
+    <string name="desired_skill">S</string>
+    <string name="shield_skill">S</string>
+    <string name="estimated_time">Tempo estimado para</string>
+    <string name="seconds">segundos.</string>
+    <string name="minutes">minutos</string>
+    <string name="hours">horas</string>
+    <string name="and">e</string>
+    <string name="dist_skill">S</string>
+    <string name="required_less_current">Skill desejado menor ou igual ao skill atual</string>
+    <string name="required_less_current">S</string>
+    <string name="less_than_10">Inválido: Skill menor que 10</string>
+    <string name="empty_skill_value">Valor do skill vazio</string>
 </resources>
