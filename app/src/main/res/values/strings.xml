@@ -293,5 +293,17 @@
     <string name="click_ads_removal">Click to remove ads</string>
     <string name="thx_subs">Thanks for subscribing, so you are helping me and disabling ads.</string>
     <string name="cancelled_purchase">Cancelled purchase</string>
+    <string name="melee_training">Melee Training</string>
+    <string name="current_skill">Current skill</string>
+    <string name="desired_skill">Desired skill</string>
+    <string name="shield_skill">Shield skill</string>
+    <string name="melee_skill">Melee skill</string>
+    <string name="estimated_time">Estimated time for</string>
+    <string name="seconds">seconds.</string>
+    <string name="minutes">minutes</string>
+    <string name="hours">hours</string>
+    <string name="and">and</string>
+    <string name="dist_training">Distance Training</string>
+    <string name="dist_skill">Distance skill</string>
 
 </resources>

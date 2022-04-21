@@ -16,9 +16,11 @@ import com.google.android.gms.ads.initialization.InitializationStatus;
 import com.google.android.gms.ads.initialization.OnInitializationCompleteListener;
 
 import net.heedapps.tibiatools.R;
+import net.heedapps.tibiatools.calculators.DistTrainingActivity;
 import net.heedapps.tibiatools.calculators.HuntCalcActivity;
 import net.heedapps.tibiatools.calculators.LevelCalculatorActivity;
 import net.heedapps.tibiatools.calculators.SharedExpActivity;
+import net.heedapps.tibiatools.calculators.MeleeTrainingActivity;
 
 public class CalculatorsActivity extends AppCompatActivity {
 
@@ -47,9 +49,27 @@ public class CalculatorsActivity extends AppCompatActivity {
             adViewCalcTwo.setVisibility(View.GONE);
         }
 
+        Button melee_skill_training = findViewById(R.id.melee_skill_training);
+        Button dist_skill_training = findViewById(R.id.dist_skill_training);
         Button shared_btn = findViewById(R.id.shared_btn);
         Button hunt_btn = findViewById(R.id.hunt_btn);
         Button level_btn = findViewById(R.id.level_btn);
+
+        melee_skill_training.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent hunt_intent = new Intent(CalculatorsActivity.this, MeleeTrainingActivity.class);
+                startActivity(hunt_intent);
+            }
+        });
+
+        dist_skill_training.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent hunt_intent = new Intent(CalculatorsActivity.this, DistTrainingActivity.class);
+                startActivity(hunt_intent);
+            }
+        });
 
         shared_btn.setOnClickListener(new View.OnClickListener() {
             @Override

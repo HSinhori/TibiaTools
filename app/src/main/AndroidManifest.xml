@@ -13,6 +13,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.NoActionBar">
         <activity
+            android:name=".calculators.DistTrainingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".calculators.MeleeTrainingActivity"
+            android:exported="false" />
+        <activity
             android:name=".view.AdsRemovalActivity"
             android:exported="false"
             android:screenOrientation="portrait" />
