@@ -8,6 +8,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.bumptech.glide.Glide;
 
@@ -107,9 +108,21 @@ public class DistTrainingActivity extends AppCompatActivity {
 
                         convert(dist_time, shield_time, melee_time);
 
+                    }else{
+                        Toast.makeText(
+                                this, getString(R.string.required_less_current),
+                                Toast.LENGTH_SHORT).show();
                     }
 
+                }else{
+                    Toast.makeText(
+                            this, getString(R.string.less_than_10),
+                            Toast.LENGTH_SHORT).show();
                 }
+            }else{
+                Toast.makeText(
+                        this, getString(R.string.empty_skill_value),
+                        Toast.LENGTH_SHORT).show();
             }
 
 

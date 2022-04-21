@@ -305,5 +305,8 @@
     <string name="and">and</string>
     <string name="dist_training">Distance Training</string>
     <string name="dist_skill">Distance skill</string>
+    <string name="required_less_current">Required skill less than or equal to current skill</string>
+    <string name="less_than_10">Invalid: Skill less than 10</string>
+    <string name="empty_skill_value">Empty skill value</string>
 
 </resources>
